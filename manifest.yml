@@ -1,6 +1,7 @@
 ---
 applications:
-  - name: test-app
+  - name: test-app-green
     memory: 256M
     instances: 1
-    random-route: true
+    routes:
+    - test-app-green.apps.pas.aws.kirklab.io
